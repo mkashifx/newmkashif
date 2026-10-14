@@ -1,0 +1,28 @@
+h1{
+    background-color: aqua;
+}
+
+body{
+    background-color: brown;
+}
+.one{
+    background-color: hotpink;
+    width: 200px;
+    height: 200px;
+
+    transition-property: width 2s;
+    transition-property: height 2s;
+
+    transition-duration: 2s;
+
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-timing-function: linear;
+
+    transition-delay: 0.1hs;
+}
+
+.one:hover{
+    width: 200px;
+    background-color: rgb(216, 13, 148);
+    border-radius: 50%;
+}
